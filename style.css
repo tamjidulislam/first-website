@@ -1,17 +1,67 @@
-.panda-card{
-    border:0;
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
-.panda-card-footer{
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 60%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-area{
+ background-image: url(images/dream-bg.png);
+ background-repeat: no-repeat;
+ background-position: right;   
+}
+.single-experience{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 5px;
+    height: 80%;
     background-color: white;
-    border: 0;
 }
-.categories img{
-    width: 100px;
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
-.panda-slide{
-    background-color: thistle;
-    border-radius: 1em;
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
 }
-.cat1{
-    border-radius: 1em;
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#copy{
+    text-align: center;
 }
